@@ -6,10 +6,6 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         // Please write your code here.
-        int result = 1;
-        for (int i = 0; i < b; i++) {
-            result *= a;
-        }
-        System.out.println(result);
+        System.out.println((int)Math.pow(a, b));
     }
 }
